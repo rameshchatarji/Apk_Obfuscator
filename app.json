@@ -1,0 +1,16 @@
+{
+  "name": "Apk Obfuscation",
+  "description": "Apk Obfuscator site",
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+    },
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
